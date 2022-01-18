@@ -13,3 +13,6 @@ def list_check(lst):
         
     return True
 
+
+# isinstance -- type 
+
