@@ -12,4 +12,4 @@ def sum_floats(nums):
     # "isinstance" function --- research how to use this to find out
     # if something is a float!
     
-    return{[num for num in nums if isinstance(num,float)]}      
+    return sum([num for num in nums if isinstance(num, float)])   
