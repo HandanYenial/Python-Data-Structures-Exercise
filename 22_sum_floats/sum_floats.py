@@ -14,5 +14,6 @@ def sum_floats(nums):
     # The isinstance() function returns True if the specified object 
     # is of the specified type, otherwise False.
     #sum is the function as sum()
+    #float:decimal numbers
     
     return sum([num for num in nums if isinstance(num, float)])   
